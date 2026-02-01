@@ -2,7 +2,7 @@ spring:
   application:
     name: promo-quoter
   datasource:
-    url: jdbc:h2:mem:promoquoter
+    url: jdbc:h2:mem:promoquoter;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     driver-class-name: org.h2.Driver
     username: sa
     password:
