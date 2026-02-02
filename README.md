@@ -21,11 +21,7 @@ A Spring Boot REST service that calculates cart prices with pluggable promotion 
 ## How to Run
 
 ```bash
-# Using Maven
 mvn spring-boot:run
-
-# Or using Gradle (if gradlew exists)
-./gradlew bootRun
 ```
 
 The API runs at `http://localhost:8080`.
